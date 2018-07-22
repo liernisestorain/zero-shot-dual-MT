@@ -1,0 +1,18 @@
+Data lines of the UN parallel corpus used to train the models.
+
+****************************
+base_train_en-es_lines.txt 
+and 
+base_train_en-fr_lines.txt 
+*****************************
+
+They contain the line numbers of the data used to trained the multilingual NMT model. Each contains the lines taken from the en-es and en-fr datasets, respectively.
+
+
+*****************************
+rl_train_es_lines.txt
+and
+rl_train_fr_lines.txt
+*****************************
+
+These files contain the line numbers of the monolingual data used to train the baseline multilingual NMT model with RL. Each contains the lines taken from the corresponding file of the es-fr dataset.
