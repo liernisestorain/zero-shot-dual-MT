@@ -1,0 +1,78 @@
+Data lines (first line has ID 1) of the UN parallel corpus used to
+train the models.
+
+****************************
+base_train_en-es_lines.txt,
+base_train_en-fr_lines.txt
+and 
+base_train_en-ru_lines.txt 
+*****************************
+
+They contain the line numbers of the data used to trained the multilingual 
+NMT model. Each contains the lines taken from the en-es, en-fr and en-ru
+datasets, respectively.
+
+
+*****************************
+rl_train_esfr_es_lines.txt
+and
+rl_train_esru_es_lines.txt
+*****************************
+
+These files contain the line numbers of the Spanish monolingual data 
+used to train the baseline multilingual NMT model with RL. The lines are
+taken from the es-fr and es-ru datasets, respectively.
+
+
+*****************************
+rl_train_esfr_fr_lines.txt
+and
+rl_train_frru_fr_lines.txt
+*****************************
+
+Similarly, these files contain the line numbers of the French monolingual
+data used to train the baseline multilingual NMT model with RL.
+
+
+*****************************
+rl_train_esru_ru_lines.txt
+and
+rl_train_frru_ru_lines.txt
+*****************************
+
+Similarly, these files contain the line numbers of the Russian monolingual
+data used to train the baseline multilingual NMT model with RL.
+
+
+*****************************
+lm_train_enes_es_lines.txt,
+lm_train_esfr_es_lines.txt
+and
+lm_train_esru_es_lines.txt
+*****************************
+
+These files contain the line numbers of the monolingual data used to train
+the Spanish language model. The lines are taken from the en-es, es-fr and
+es-ru datasets, respectively.
+
+
+*****************************
+lm_train_enfr_fr_lines.txt,
+lm_train_esfr_fr_lines.txt
+and
+lm_train_frru_fr_lines.txt
+*****************************
+
+Similarly, these files contain the line numbers of the monolingual data
+used to train the French language model.
+
+
+*****************************
+lm_train_enru_ru_lines.txt,
+lm_train_esru_ru_lines.txt
+and
+lm_train_frru_ru_lines.txt
+*****************************
+
+Similarly, these files contain the line numbers of the monolingual data
+used to train the Russian language model.

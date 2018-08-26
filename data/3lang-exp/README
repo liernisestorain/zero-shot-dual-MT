@@ -1,0 +1,44 @@
+Data lines (first line has ID 1) of the UN parallel corpus used to
+train the models.
+
+****************************
+base_train_en-es_lines.txt 
+and 
+base_train_en-fr_lines.txt 
+*****************************
+
+They contain the line numbers of the data used to trained the multilingual 
+NMT model. Each contains the lines taken from the en-es and en-fr datasets,
+respectively.
+
+
+*****************************
+rl_train_es_lines.txt
+and
+rl_train_fr_lines.txt
+*****************************
+
+These files contain the line numbers of the monolingual data used to train
+the baseline multilingual NMT model with RL. Each contains the lines taken
+from the corresponding file of the es-fr dataset.
+
+
+*****************************
+lm_train_enes_es_lines.txt
+and
+lm_train_esfr_es_lines.txt
+*****************************
+
+These files contain the line numbers of the monolingual data used to train
+the Spanish language model. The lines in the former one are taken from the
+en-es dataset and the latter ones from the es-fr dataset.
+
+
+*****************************
+lm_train_enfr_fr_lines.txt
+and
+lm_train_esfr_fr_lines.txt
+*****************************
+
+Similarly, these files contain the line numbers of the monolingual data
+used to train the French language model.
